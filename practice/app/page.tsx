@@ -1,9 +1,13 @@
-import Image from 'next/image'
+import  Content  from "./components/content/content"
+import Footer from "./components/footer/footer"
+import Navbar from "./components/navbar/navbar"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello Wolrd</h1>
+    <main>
+      <Navbar />
+      <Content />
+      <Footer />
     </main>
   )
 }

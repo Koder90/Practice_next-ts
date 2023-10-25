@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    background-color: cornsilk;
+}
+
+.item{
+    margin-right: 10px;
+}
