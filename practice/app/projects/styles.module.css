@@ -1,0 +1,9 @@
+.img {
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgb(253, 253, 253)
+}
+
+.img:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255)
+}

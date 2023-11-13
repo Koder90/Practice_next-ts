@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import { BiLogoGit, BiLogoReact } from 'react-icons/bi'
+import { BiLogoGit, BiLogoReact, BiLogoJavascript, BiLogoCss3 } from 'react-icons/bi'
 import { BiLogoNodejs } from 'react-icons/bi'
 
 export default function Skills() {
@@ -12,6 +12,8 @@ export default function Skills() {
               <BiLogoReact size={50} />
               <BiLogoNodejs size={50} />
               <BiLogoGit size={50} />
+              <BiLogoJavascript size={50} />
+              <BiLogoCss3 size={50} />
               </div>
             
         </div>

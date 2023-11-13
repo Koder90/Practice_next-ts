@@ -4,6 +4,8 @@
 }
 
 .grid_container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(124, 124, 124);
     opacity: 0.5;
     width: 200px;
